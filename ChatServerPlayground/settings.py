@@ -102,16 +102,16 @@ CHANNEL_LAYERS = {
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-DB_NAME = "codingwithmitch_chat_dev"
-DB_USER = "django"
-DB_PASSWORD = "password"
+DB_NAME = "database_kub9"
+DB_USER = "database_kub9_user"
+DB_PASSWORD = "ScsIs7xCdwB7QyTLsZe6DXfbfhVybkC9"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': DB_NAME,
         'USER': DB_USER,
         'PASSWORD': DB_PASSWORD,
-        'HOST': 'localhost',
+        'HOST': 'postgres://database_kub9_user:ScsIs7xCdwB7QyTLsZe6DXfbfhVybkC9@dpg-c8de020ivq09nqbebg50/database_kub9',
         'PORT': '5432',
     }
 }
